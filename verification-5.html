@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>    
+    <div class="container flex h-screen m-0 p-0">
+		<div class="hidden md:w-1/2 lg:block">
+			<img src="assets/images/verification-1.jpg" alt="Left-Image" class="h-fit">
+		</div>
+		<div class="w-full flex flex-col justify-start md:px-24 h-full lg:w-1/2 py-4 lg:justify-center">
+			<div class="details p-6 md:p-0">
+				<img src="assets/images/haap-logo.svg" alt="Logo" class="mt-4 mb-8 lg:hidden">
+				<h1 class="text-[34.9px] font-medium md:text-[51px]">Verification</h1>
+				<p class="text-[13.29px] text-sm text-[#808080]">Complete your KYC verification for compliance purposes <br class="hidden md:block">
+					in just 4 simple steps
+				</p>
+
+				<!-- Progress Bar -->
+				<div class="mx-auto my-3">	
+					<div class="flex py-2 w-full">
+						<div>
+							<div class="w-10 h-10 bg-[#3284A0] rounded-full text-lg text-white flex items-center">
+								<span class="text-white text-center font-medium w-full">1</i></span>
+							</div>
+						</div>
+
+
+						<div class="w-1/6 align-center items-center align-middle content-center flex">
+							<div class="w-full rounded items-center align-middle align-center flex-1">
+								<div class="border border-[#808080]"></div>
+							</div>
+						</div>
+					
+						
+						<div>
+							<div class="w-10 h-10 bg-[#3284A0] rounded-full text-lg text-white flex items-center">
+								<span class="text-white text-center font-medium w-full">2</i></span>
+							</div>
+						</div>
+
+
+						<div class="w-1/6 align-center items-center align-middle content-center flex">
+							<div class="w-full rounded items-center align-middle align-center flex-1">
+								<hr class="border border-[#808080]">
+							</div>
+						</div>
+					
+						<div>
+							<div class="w-10 h-10 bg-[#3284A0] rounded-full text-lg text-white flex items-center">
+								<span class="text-white text-center font-medium w-full">3</i></span>
+							</div>
+						</div>
+
+
+						<div class="w-1/6 align-center items-center align-middle content-center flex">
+							<div class="w-full rounded items-center align-middle align-center flex-1">
+								<hr class="border border-[#808080]">
+							</div>
+						</div>
+
+
+						<div>
+							<div class="w-10 h-10 bg-[#3284A0] rounded-full text-lg text-white flex items-center">
+								<span class="text-white text-center font-medium w-full">4</i></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Form -->
+				<div>
+					<h1 class="text-[24px] font-medium md:text-[33px]">Upload Image</h1>
+					<p class="text-[13.29px] text-sm text-[#808080]">
+                        Upload a clear portrait of yourself. Image must clearly <br class="hidden md:block">
+                        show your eyes, ears and nose. Do not wear a cap.
+					</p>
+
+					<label for="upload-image" class="block mt-4 mb-2 text-[19.29px] font-semibold text-black">Upload Portrait</label>
+                    <label for="upload-image" class="text-center d-block rounded-lg align-items-center justify-content-start d-flex p-2" style="border:1px dashed #aaa;">
+                        <span class="mr-">
+                            <img width="50" id="cli-img" src="assets/images/upload icon.svg" height="50">
+                            <span id="img-block" class="" style="display: none;">
+                            </span>
+                        </span>
+                        <div class="text-secondary text-left ml-3">
+                            <p class="pb-0 mb-0 text-sm">Upload your image</p>
+                            <span class="text-sm">PNG, JPG or JPEG (rec 500x500px)</span>
+                        </div>
+                        <input type="file" class="" name="upload-image" id="upload-image" hidden="">
+                    </label>
+
+					<button class="mt-2 w-full bg-[#3284A0] rounded-lg p-3 text-base text-white font-medium">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
